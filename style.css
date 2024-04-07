@@ -49,20 +49,45 @@ header nav ul li a.sign-up{
     background-color:aqua;
     border-radius:10px;
 }
+
 /* first-section start */
+
 .first-section{
-    background-color:#ebeaf0;
+    
+
 }
-.first-section.container{
+.first-section, .container{
     display: flex;
     justify-content: space-between;
+    background-color:#f0f4f5 ;
+}  
+.first-section.container,.item1{
+    margin: 100px 20px ;
+    
 }
-.first-section.container.item1{
+.first-section.container,.item1 h1{
+  color: #333333;
+}
+.first-section.container,.item1 p{
+    color: #333333;
+    font-size: large;
+  margin-top: 20px;
 
 }
-.first-section.container.item1 h1{
+.first-section.container,.item1 button{
+    padding: 10px;
+   border-radius: 10px;
+   background-color: #12a9ff;
+   border-style: none;
+  margin-top: 20px;
+
+    
+}
+.first-section.container,item2{
 
 }
-.first-section.container.item1 button{
-
+.first-section.container,.item2 img{
+  width: 600px;
+  height: 400px;
 }
+
