@@ -59,29 +59,29 @@ header nav ul li a.sign-up{
 .first-section, .container{
     display: flex;
     justify-content: space-between;
-    background-color:#f0f4f5 ;
 }  
 .first-section.container,.item1{
-    margin: 100px 20px ;
+    margin: 100px 50px ;
     
 }
 .first-section.container,.item1 h1{
   color: #333333;
+  font-size: 60px;
 }
 .first-section.container,.item1 p{
     color: #333333;
-    font-size: large;
+    font-size: 20px;
   margin-top: 20px;
 
 }
 .first-section.container,.item1 button{
-    padding: 10px;
+    padding: 20px 40px 20px 40px;
    border-radius: 10px;
    background-color: #12a9ff;
    border-style: none;
   margin-top: 20px;
-
-    
+  color: white;
+  font-size: 18px;    
 }
 .first-section.container,item2{
 
@@ -90,4 +90,101 @@ header nav ul li a.sign-up{
   width: 600px;
   height: 400px;
 }
+
+/* second-section start */
+
+.second-section{
+ background-color: #f7f7ff;
+ padding-top: 35px;
+}
+.second-section .second-title{
+    text-align: center;
+}
+.second-section .second-title h1{
+    font-size:40px;
+
+}
+.second-section .second-title p{
+    font-size:larger;
+    padding-bottom:35px;
+}
+.second-section.second-title,.second-cart{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+ text-align: center;
+}
+.second-section.second-title.second-cart,.cart1{
+    background-color: white;
+    width: 330px;
+    height: 250px;
+    padding-top: 20px;
+
+}
+.second-section.second-title.second-cart,.cart1 img{
+    display: inine-block;
+}
+.second-section.second-title.second-cart,.cart1 h4{
+
+}
+.second-section.second-title.second-cart,.cart1 p{
+    font-size:larger;
+    margin-top: 20px;
+}
+
+ /* second-section close */
+
+  /* third-section start  */
+.third-section{
+    margin-top: 10px;
+}
+.third-section{
+ background-color: #f7f7ff;
+ padding-top: 35px;
+}
+.third-section .third-title{
+    
+}
+.third-section .third-title h1{
+    font-size:40px;
+
+}
+.third-section .third-title p{
+    font-size:larger;
+    padding-bottom:35px;
+}
+
+/* fourth-section */
+.fourth-section{}
+.fourth-title{
+    text-align:center;
+}
+.fourth-section.fourth-title container{}
+.fourth-section .fourth-title container,.fourth-cart1{
+    width:300px;
+    height:200px;
+    background-color:#f6fbff;
+    border-radius:15px;
+    margin-left:40px;
+    border-bottom:4px solid #12a9ff;
+    padding-bottom:20px;
+}
+.fourth-cart1 img{
+    height:40px;
+    margin-top:20px;
+}
+.fourth-cart1 h2:hover{
+    color:#14aaff;
+    transition:.5s;
+}
+.fourth-cart1 p{
+    font-size:20px;
+}
+.fourth-cart1 a{
+    text-decoration:none;
+    font-size:22px;
+}
+
+
+
 
